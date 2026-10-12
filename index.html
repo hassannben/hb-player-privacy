@@ -1,115 +1,404 @@
-# Privacy Policy for HB PLAYER
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for HB PLAYER - Media Player Application">
+    <title>Privacy Policy - HB PLAYER</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-Last updated: October 13, 2026
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                         'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
 
-## Introduction
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
 
-Welcome to HB PLAYER ("we", "our", or "us"). This Privacy Policy 
-explains how we collect, use, and protect your information when 
-you use our mobile application HB PLAYER (the "App").
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #d32f2f;
+            margin-bottom: 40px;
+        }
 
-By using the App, you agree to the collection and use of information 
-in accordance with this policy.
+        header h1 {
+            color: #d32f2f;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
 
-## Information We Collect
+        header .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
 
-### 1. Information You Provide Voluntarily
+        header .last-updated {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 14px;
+            background: #ffebee;
+            color: #d32f2f;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
 
-HB PLAYER is a media player application that allows you to play 
-media content from sources you provide. We DO NOT collect, store, 
-or transmit:
+        h2 {
+            color: #d32f2f;
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-left: 12px;
+            border-left: 4px solid #d32f2f;
+        }
 
-- Your IPTV server credentials (URL, username, password)
-- Your playlists or media preferences
-- Your viewing history
+        h3 {
+            color: #2c3e50;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
 
-All credentials you enter are stored LOCALLY on your device only 
-and are never sent to our servers.
+        p {
+            margin-bottom: 14px;
+            color: #37474f;
+            font-size: 15px;
+        }
 
-### 2. Information Collected Automatically
+        ul {
+            margin: 12px 0 20px 25px;
+            color: #37474f;
+        }
 
-When you use the App, we may automatically collect:
+        ul li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
 
-- **Device Information**: Device model, operating system version, 
-  unique device identifiers
-- **Usage Data**: App crashes, performance data, general usage 
-  statistics
-- **Advertising ID**: If you have ads enabled, our advertising 
-  partners may collect your advertising identifier
+        a {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid #ffcdd2;
+            transition: all 0.2s ease;
+        }
 
-### 3. Third-Party Services
+        a:hover {
+            color: #b71c1c;
+            border-bottom-color: #b71c1c;
+        }
 
-The App uses the following third-party services that may collect 
-information:
+        .highlight-box {
+            background: #ffebee;
+            border-left: 4px solid #d32f2f;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
 
-- **Google AdMob** (if ads are enabled): For displaying advertisements. 
-  See Google's Privacy Policy: https://policies.google.com/privacy
-- **Google Play Services**: For app distribution and updates
+        .highlight-box p {
+            margin: 0;
+            color: #b71c1c;
+            font-weight: 500;
+        }
 
-## How We Use Your Information
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #1976d2;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
 
-We use the collected information to:
+        .info-box p {
+            margin: 0;
+            color: #0d47a1;
+            font-weight: 500;
+        }
 
-- Provide and maintain the App
-- Improve the App's performance and user experience
-- Display advertisements (if applicable)
-- Detect and fix technical issues
-- Comply with legal obligations
+        .warning-box {
+            background: #fff3e0;
+            border-left: 4px solid #f57c00;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
 
-## Data Storage and Security
+        .warning-box p {
+            margin: 0;
+            color: #e65100;
+            font-weight: 500;
+        }
 
-- We do NOT store your IPTV credentials on our servers
-- All credentials are stored locally on your device
-- We use industry-standard security measures to protect data
-- However, no method of transmission over the Internet is 100% secure
+        .contact-info {
+            background: #f5f5f5;
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
 
-## Children's Privacy
+        .contact-info p {
+            margin-bottom: 8px;
+        }
 
-The App is not intended for children under 13 years of age. We do 
-not knowingly collect personal information from children under 13. 
-If you are a parent or guardian and believe your child has provided 
-us with personal information, please contact us.
+        .contact-info strong {
+            color: #d32f2f;
+        }
 
-## Your Rights
+        footer {
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+            color: #888;
+            font-size: 13px;
+        }
 
-You have the right to:
+        footer p {
+            color: #888;
+            font-size: 13px;
+        }
 
-- Access the personal information we hold about you
-- Request correction of inaccurate information
-- Request deletion of your information
-- Object to processing of your information
-- Data portability
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">HB PLAYER - Media Player Application</p>
+            <span class="last-updated">Last updated: October 13, 2026</span>
+        </header>
 
-To exercise these rights, contact us at: [your-email@example.com]
+        <h2>1. Introduction</h2>
+        <p>
+            Welcome to <strong>HB PLAYER</strong> ("we", "our", or "us"). 
+            This Privacy Policy explains how we collect, use, and protect 
+            your information when you use our mobile application 
+            <strong>HB PLAYER</strong> (the "App").
+        </p>
+        <p>
+            By using the App, you agree to the collection and use of 
+            information in accordance with this policy. If you do not 
+            agree with this policy, please do not use the App.
+        </p>
 
-## Third-Party Content
+        <h2>2. Information We Collect</h2>
 
-HB PLAYER is a media player only. We DO NOT provide, host, or 
-distribute any media content. Users are solely responsible for 
-the content they access through the App. We do not endorse or 
-support any unauthorized streaming of copyrighted material.
+        <h3>2.1 Information You Provide Voluntarily</h3>
+        <p>
+            HB PLAYER is a media player application that allows you to play 
+            media content from sources you configure yourself. 
+            <strong>We DO NOT collect, store, or transmit:</strong>
+        </p>
+        <ul>
+            <li>Your media server credentials (URL, username, password)</li>
+            <li>Your playlists or media preferences</li>
+            <li>Your viewing history or watch time</li>
+            <li>Your favorite content or bookmarks</li>
+        </ul>
 
-## Changes to This Privacy Policy
+        <div class="highlight-box">
+            <p>
+                🔒 All credentials you enter are stored <strong>LOCALLY</strong> 
+                on your device only and are never sent to our servers.
+            </p>
+        </div>
 
-We may update our Privacy Policy from time to time. We will notify 
-you of any changes by posting the new Privacy Policy on this page 
-and updating the "Last updated" date.
+        <h3>2.2 Information Collected Automatically</h3>
+        <p>
+            When you use the App, we may automatically collect certain 
+            information for analytics and improvement purposes:
+        </p>
+        <ul>
+            <li><strong>Device Information:</strong> Device model, operating 
+                system version, unique device identifiers</li>
+            <li><strong>Usage Data:</strong> App crashes, performance 
+                metrics, general usage statistics</li>
+            <li><strong>Advertising ID:</strong> If ads are enabled, our 
+                advertising partners may collect your advertising identifier</li>
+        </ul>
 
-## Contact Us
+        <h3>2.3 Third-Party Services</h3>
+        <p>
+            The App uses the following third-party services that may 
+            collect information:
+        </p>
+        <ul>
+            <li>
+                <strong>Google AdMob</strong> (if ads are enabled): For 
+                displaying advertisements. See Google's Privacy Policy: 
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+                    https://policies.google.com/privacy
+                </a>
+            </li>
+            <li>
+                <strong>Google Play Services</strong>: For app distribution 
+                and updates. See: 
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+                    https://policies.google.com/privacy
+                </a>
+            </li>
+        </ul>
 
-If you have any questions about this Privacy Policy, please contact us:
+        <h2>3. How We Use Your Information</h2>
+        <p>We use the collected information to:</p>
+        <ul>
+            <li>Provide and maintain the App functionality</li>
+            <li>Improve the App's performance and user experience</li>
+            <li>Display relevant advertisements (if applicable)</li>
+            <li>Detect, prevent, and fix technical issues</li>
+            <li>Comply with legal obligations</li>
+            <li>Respond to your support requests</li>
+        </ul>
 
-- Email: [your-email@example.com]
-- Developer: [Your Name]
+        <h2>4. Data Storage and Security</h2>
+        <ul>
+            <li>We do <strong>NOT</strong> store your media credentials on 
+                our servers</li>
+            <li>All credentials are stored locally on your device</li>
+            <li>We use industry-standard security measures to protect data</li>
+            <li>However, no method of transmission over the Internet is 
+                100% secure</li>
+        </ul>
 
-## Consent
+        <h2>5. Data Sharing</h2>
+        <p>
+            We <strong>do not sell, trade, or rent</strong> your personal 
+            information to third parties. We may share information only in 
+            the following cases:
+        </p>
+        <ul>
+            <li>With your explicit consent</li>
+            <li>To comply with legal requirements or valid legal processes</li>
+            <li>To protect our rights, privacy, safety, or property</li>
+            <li>With trusted service providers who assist us in operating 
+                the App (under strict confidentiality agreements)</li>
+        </ul>
 
-By using HB PLAYER, you consent to our Privacy Policy and agree 
-to its terms.
+        <h2>6. Children's Privacy</h2>
+        <p>
+            The App is not intended for children under 13 years of age. 
+            We do not knowingly collect personal information from children 
+            under 13. If you are a parent or guardian and believe your 
+            child has provided us with personal information, please contact 
+            us immediately so we can take appropriate action.
+        </p>
 
----
+        <h2>7. Your Rights</h2>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+            <li>Access the personal information we hold about you</li>
+            <li>Request correction of inaccurate information</li>
+            <li>Request deletion of your information</li>
+            <li>Object to processing of your information</li>
+            <li>Request data portability</li>
+            <li>Withdraw consent at any time</li>
+        </ul>
+        <p>
+            To exercise these rights, please contact us using the 
+            information provided below.
+        </p>
 
-**⚠️ IMPORTANT NOTE:** HB PLAYER does not host, provide, or 
-distribute any media content. All content accessed through the App 
-is provided by third-party sources that users configure themselves. 
-We are not responsible for the content accessed through the App.
+        <h2>8. Third-Party Content Disclaimer</h2>
+
+        <div class="warning-box">
+            <p>
+                ⚠️ HB PLAYER is a <strong>media player only</strong>. 
+                We DO NOT provide, host, or distribute any media content.
+            </p>
+        </div>
+
+        <p>
+            Users are solely responsible for the content they access 
+            through the App. We do not endorse, support, or promote any 
+            unauthorized streaming of copyrighted material. Users must 
+            ensure they have the legal right to access any content they 
+            play through the App.
+        </p>
+
+        <h2>9. Permissions</h2>
+        <p>The App may request the following permissions:</p>
+        <ul>
+            <li><strong>Internet Access:</strong> Required to stream media 
+                content from your configured sources</li>
+            <li><strong>Network State:</strong> To check your internet 
+                connection status</li>
+        </ul>
+
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>
+            We may update our Privacy Policy from time to time. We will 
+            notify you of any changes by posting the new Privacy Policy 
+            on this page and updating the "Last updated" date at the top. 
+            You are advised to review this Privacy Policy periodically 
+            for any changes.
+        </p>
+
+        <h2>11. Contact Us</h2>
+        <p>
+            If you have any questions, concerns, or requests regarding 
+            this Privacy Policy or our data practices, please contact us:
+        </p>
+
+        <div class="contact-info">
+            <p><strong>📧 Email:</strong> 
+                <a href="mailto:hbplayer.support@gmail.com">hbplayer.support@gmail.com</a>
+            </p>
+            <p><strong>📱 Application:</strong> HB PLAYER</p>
+            <p><strong>👤 Developer:</strong> HB Player Team</p>
+        </div>
+
+        <h2>12. Consent</h2>
+        <p>
+            By downloading, installing, and using HB PLAYER, you consent 
+            to this Privacy Policy and agree to its terms and conditions.
+        </p>
+
+        <div class="info-box">
+            <p>
+                ✅ Your privacy is important to us. We are committed to 
+                protecting your data and providing a transparent, safe 
+                experience.
+            </p>
+        </div>
+
+        <footer>
+            <p>© 2026 HB PLAYER. All rights reserved.</p>
+            <p>This privacy policy was last updated on October 13, 2026.</p>
+        </footer>
+    </div>
+</body>
+</html>
